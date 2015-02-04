@@ -1,0 +1,19 @@
+{
+    "name": "lapalabs/doctrine-extensions-bundle",
+    "description": "Provides additional Doctrine extensions for Symfony",
+    "keywords": ["lapalabs", "doctrine", "extension", "bundle"],
+    "homepage": "https://github.com/LapaLabs/DoctrineExtensionsBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LapaLabs",
+            "email": "mail@brainforce.kiev.ua"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {"LapaLabs\\DoctrineExtensionsBundle\\": ""}
+    }
+}
