@@ -1,0 +1,9 @@
+{% spaceless %}
+    {% if datetime %}
+        <abbr title="at {{ datetime|date('H:i') }}">
+            {{ datetime|date('d/m/Y') }}
+        </abbr>
+    {% else %}
+        ~
+    {% endif %}
+{% endspaceless %}
