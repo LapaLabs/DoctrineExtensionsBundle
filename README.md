@@ -8,12 +8,12 @@ Install
 Add repository link to your `composer.json` file:
 
 ``` json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/LapaLabs/DoctrineExtensionsBundle"
-    }
-],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LapaLabs/DoctrineExtensionsBundle"
+        }
+    ],
 ```
 
 Install bundle with `Composer` dependency manager first by running the command:
