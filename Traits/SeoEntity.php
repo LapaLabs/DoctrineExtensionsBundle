@@ -39,7 +39,7 @@ trait SeoEntity
      */
     public function setTitle($title)
     {
-        $this->title = $title;
+        $this->title = isset($title) ? $title : '';
 
         return $this;
     }
@@ -58,7 +58,7 @@ trait SeoEntity
      */
     public function setMetaDescription($metaDescription)
     {
-        $this->metaDescription = $metaDescription;
+        $this->metaDescription = isset($metaDescription) ? $metaDescription : '';
 
         return $this;
     }
@@ -77,7 +77,7 @@ trait SeoEntity
      */
     public function setMetaKeywords($metaKeywords)
     {
-        $this->metaKeywords = $metaKeywords;
+        $this->metaKeywords = isset($metaKeywords) ? $metaKeywords : '';
 
         return $this;
     }
