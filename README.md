@@ -1,18 +1,15 @@
 # DoctrineExtensionsBundle
 
-The additional Doctrine extensions with [Bootstrapped][1] Twig templates using [Font Awesome][2] icons for Symfony Framework
+The additional Doctrine extensions with [Bootstrapped][1] Twig templates
+using [Font Awesome][2] icons for Symfony Framework
 
-Install
--------
+## Install
 
 Add repository link to your `composer.json` file:
 
 ``` json
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/LapaLabs/DoctrineExtensionsBundle"
-        }
+        { "type": "vcs", "url": "git@github.com:LapaLabs/DoctrineExtensionsBundle.git" }
     ],
 ```
 
@@ -22,8 +19,7 @@ Install bundle with `Composer` dependency manager first by running the command:
 
 `Composer` will install the bundle to your project's `vendor` directory.
 
-Include
--------
+## Include
 
 Including the bundle to your `Symfony` project is as easy as to do a few simple steps.
 
@@ -42,11 +38,11 @@ public function registerBundles()
 }
 ```
 
-Congratulations!
-----------------
+## Congratulations!
+
 You're ready to rock with additional Doctrine extensions now!
 
-More documentation for override bundle's templates:
+More documentation for override bundle's parts:
 * [Overriding Bundle Templates][3]
 * [How to Use Bundle Inheritance to Override Parts of a Bundle][4]
 
