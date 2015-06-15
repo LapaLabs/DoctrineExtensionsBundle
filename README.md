@@ -38,6 +38,10 @@ public function registerBundles()
 }
 ```
 
+## Features
+
+* [Transform any entity to its ID and back for using in hidden form fields](Resources/doc/entity-to-id-transformer.md)
+
 ## Congratulations!
 
 You're ready to rock with additional Doctrine extensions now!

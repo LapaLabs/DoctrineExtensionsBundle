@@ -11,7 +11,7 @@ use LapaLabs\DoctrineExtensionsBundle\Form\DataTransformer\EntityToIdTransformer
 /**
  * Class EntitySelectorType
  */
-class EntitySelectorType extends AbstractType
+abstract class EntitySelectorType extends AbstractType
 {
     /**
      * @var EntityRepository
