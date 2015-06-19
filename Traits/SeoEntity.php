@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * SEO trait for Doctrine entities, usable with PHP >= 5.4
  *
- * @author Bocharsky Victor <bocharsky.bw@gmail.com>
+ * @author Victor Bocharsky <bocharsky.bw@gmail.com>
  * @license http://opensource.org/licenses/mit-license.php The MIT License
  */
 trait SeoEntity
@@ -24,14 +24,14 @@ trait SeoEntity
      *
      * @ORM\Column(type="string", length=255)
      */
-    protected $metaDescription = '';
+    protected $description = '';
 
     /**
      * @var string
      *
      * @ORM\Column(type="string", length=255)
      */
-    protected $metaKeywords = '';
+    protected $keywords = '';
 
     /**
      * @param string $title
@@ -53,12 +53,12 @@ trait SeoEntity
     }
 
     /**
-     * @param string $metaDescription
+     * @param string $description
      * @return $this
      */
-    public function setMetaDescription($metaDescription)
+    public function setDescription($description)
     {
-        $this->metaDescription = isset($metaDescription) ? $metaDescription : '';
+        $this->description = isset($description) ? $description : '';
 
         return $this;
     }
@@ -66,18 +66,18 @@ trait SeoEntity
     /**
      * @return string
      */
-    public function getMetaDescription()
+    public function getDescription()
     {
-        return $this->metaDescription;
+        return $this->description;
     }
 
     /**
-     * @param string $metaKeywords
+     * @param string $keywords
      * @return $this
      */
-    public function setMetaKeywords($metaKeywords)
+    public function setKeywords($keywords)
     {
-        $this->metaKeywords = isset($metaKeywords) ? $metaKeywords : '';
+        $this->keywords = isset($keywords) ? $keywords : '';
 
         return $this;
     }
@@ -85,8 +85,8 @@ trait SeoEntity
     /**
      * @return string
      */
-    public function getMetaKeywords()
+    public function getKeywords()
     {
-        return $this->metaKeywords;
+        return $this->keywords;
     }
 }

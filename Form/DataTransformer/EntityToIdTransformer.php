@@ -8,6 +8,9 @@ use Symfony\Component\Form\Exception\TransformationFailedException;
 
 /**
  * Class EntityToIdTransformer
+ *
+ * @author Victor Bocharsky <bocharsky.bw@gmail.com>
+ * @license http://opensource.org/licenses/mit-license.php The MIT License
  */
 class EntityToIdTransformer implements DataTransformerInterface
 {

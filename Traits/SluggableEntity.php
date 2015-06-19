@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Sluggable trait for Doctrine entities, usable with PHP >= 5.4
  *
- * @author Bocharsky Victor <bocharsky.bw@gmail.com>
+ * @author Victor Bocharsky <bocharsky.bw@gmail.com>
  * @license http://opensource.org/licenses/mit-license.php The MIT License
  */
 trait SluggableEntity

@@ -10,6 +10,9 @@ use LapaLabs\DoctrineExtensionsBundle\Form\DataTransformer\EntityToIdTransformer
 
 /**
  * Class EntitySelectorType
+ *
+ * @author Victor Bocharsky <bocharsky.bw@gmail.com>
+ * @license http://opensource.org/licenses/mit-license.php The MIT License
  */
 abstract class EntitySelectorType extends AbstractType
 {
